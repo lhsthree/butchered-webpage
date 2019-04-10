@@ -27,11 +27,12 @@ img.bandcamp {
 }
 
 img.bandmember {
-	max-width: 23%;
-	max-height: 23%;
+	max-width: 25%;
+	max-height: 25%;
 }
 
-p {
+p,
+h3 {
 	color: grey;
 }
 
