@@ -9,11 +9,12 @@
 
 body {
 	background-image: url("images/knife.png");
-	background-color: #ccc;
-	}
-
-body {
+	background-attachment:fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
 	color: blue;
+    max-width: 500px;
+    margin: auto;
 }
 
 img.facebook {
@@ -27,8 +28,12 @@ img.bandcamp {
 }
 
 img.bandmember {
-	max-width: 25%;
-	max-height: 25%;
+	width: 45%;
+	height: 50%;
+}
+.music {
+    font-size: 20px;
+    color: #AC33FF;
 }
 
 p,
