@@ -4,19 +4,24 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
+    align-items: center;
 }
 
 body {
-	background-image: url("images/knife.png");
-	background-attachment:fixed;
-    background-position: center top;
-    background-repeat: no-repeat;
+	background-color: white;
 	color: blue;
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
+    align-items: center;
 }
-
+img.press {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+}
 
 img.facebook {
 	max-width: 20%;
@@ -32,18 +37,24 @@ img.bandmember {
 	width: 45%;
 	height: 50%;
 }
+
 img {
     max-width: 400px;
     max-height:400px;
 }
+
 .music {
     font-size: 20px;
     color: #AC33FF;
 }
+table {
+    width: 100%;
+}
 
 p,
-h3 {
-	color: grey;
+h3,
+td {
+	color: black;
 }
 
 section.releases {
