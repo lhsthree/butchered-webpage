@@ -39,6 +39,11 @@ img.facebook {
 	max-height: 10%;
 }
 
+img.instagram {
+  max-width: 9%;
+  max-height: 9%;
+}
+
 img.bandcamp {
 	max-width: 9%;
 	max-height: 9%;
