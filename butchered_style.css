@@ -68,3 +68,10 @@ td {
 	color: black;
 }
 
+li {
+  display: inline;
+}
+
+a{
+  padding: 8px;
+}
