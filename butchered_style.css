@@ -9,7 +9,6 @@
 
 body {
 	background-color: white;
-	color: blue;
     max-width: 800px;
     align-items: center;
     margin:auto;
@@ -61,7 +60,7 @@ img {
 
 .music {
     font-size: 20px;
-    color: #AC33FF;
+    color:black;
 }
 table {
     width: 100%;
@@ -79,4 +78,11 @@ li {
 
 a{
   padding: 8px;
+
 }
+
+hr {
+
+ border: 2px solid #CD48DC;
+}
+
