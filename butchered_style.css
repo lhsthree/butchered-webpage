@@ -86,9 +86,7 @@ a{
   font-family: 'Caveat', cursive;
 }
 
-hr {
- border: 2px solid #CD48DC;
-}
+
 .current_page{
   font-size: 25px;
   font-family: 'Permanent Marker', cursive;
@@ -102,5 +100,15 @@ audio {
     filter: sepia(50%) saturate(70%) grayscale(2) contrast(99%) invert(12%);
     width: 200px;
     height: 25px;
+}
+
+nav{
+  border-bottom: 4px solid #CD48DC;
+  border-top: 4px solid #CD48DC;
+  border-radius: 10%;
+}
+
+footer {
+  border-top: 4px double #CD48DC;
 }
 
