@@ -97,3 +97,10 @@ hr {
 section {
   padding-top:5px;
 }
+
+audio {
+    filter: sepia(50%) saturate(70%) grayscale(2) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+}
+
