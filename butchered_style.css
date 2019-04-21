@@ -61,7 +61,10 @@ img {
 .music {
     font-size: 30px;
     font-family: 'Permanent Marker', cursive;
-}
+    display:block;
+    justify-content:center;
+    align-items: center;
+  }
 table {
     width: 100%;
 }
@@ -79,11 +82,19 @@ li {
   display: inline;
 }
 
+
+
+
 a{
   padding: 8px;
   font-size: 30px;
   color:#CD48DC;
   font-family: 'Caveat', cursive;
+}
+
+
+section{
+  margin:30px;
 }
 
 
@@ -97,6 +108,7 @@ audio {
     filter: sepia(50%) saturate(70%) grayscale(2) contrast(99%) invert(12%);
     width: 200px;
     height: 25px;
+
 }
 
 nav{
@@ -114,6 +126,7 @@ a:hover {
   font-family: 'Permanent Marker', cursive;
 }
 
-img.releases:hover {
+a img:hover {
   opacity: 0.5;
 }
+
