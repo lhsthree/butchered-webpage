@@ -25,6 +25,7 @@ h1 {
 .members {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .bandmember {
@@ -128,5 +129,7 @@ a:hover {
 
 a img:hover {
   opacity: 0.5;
+  transform:scale(1.1);
 }
+
 
