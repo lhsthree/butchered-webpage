@@ -83,7 +83,7 @@ table {
 p,
 h3,
 td,
-th,{
+th{
 	color: black;
   font-family: 'Caveat', cursive;
   font-size:20px;
