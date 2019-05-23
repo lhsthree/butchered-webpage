@@ -83,12 +83,21 @@ table {
 p,
 h3,
 td,
-th {
+th,{
 	color: black;
   font-family: 'Caveat', cursive;
   font-size:20px;
 }
+.ticket_link {
+  color: #CD48DC;
+  text-decoration: none;
+  font-family: 'Caveat', cursive;
+  font-size:20px;
+}
 
+.ticket_link:hover {
+font-size:20px;
+}
 li {
   display: inline;
 }
