@@ -11,12 +11,16 @@ body {
 	background-color: white;
     max-width: 900px;
     align-items: center;
-    margin:auto;
+    margin: 0 auto;
     text-align:center;
 }
 
+ul {
+  padding-left: 0;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 3em;
     font-family: serif;
     font-weight: bold;
     font-style: italic;
@@ -24,6 +28,7 @@ h1 {
 
 .banner{
   max-width: 600px;
+  margin: 0 auto;
 }
 
 .members {
@@ -70,7 +75,7 @@ img {
 
 
 .music {
-    font-size: 30px;
+    font-size: 2.2rem;
     font-family: 'Permanent Marker', cursive;
     display:block;
     justify-content:center;
@@ -88,18 +93,21 @@ td,
 th{
 	color: black;
   font-family: 'Caveat', cursive;
-  font-size:20px;
+  font-size:2rem;
+   padding-left: 0;
 }
+
 .ticket_link {
   color: #CD48DC;
   text-decoration: none;
   font-family: 'Caveat', cursive;
-  font-size:20px;
+  font-size: 2rem;
 }
 
 .ticket_link:hover {
-font-size:20px;
+font-size: 2.3rem;
 }
+
 li {
   display: inline;
 }
@@ -109,7 +117,7 @@ li {
 
 a{
   padding: 8px;
-  font-size: 30px;
+  font-size: 2.2rem;
   color:#CD48DC;
   font-family: 'Caveat', cursive;
   text-decoration: none;
@@ -122,10 +130,22 @@ section{
 
 
 .current_page{
-  font-size: 25px;
+  font-size: 2rem;
   font-family: 'Permanent Marker', cursive;
+  position: relative;
 }
 
+
+.current_page:before{
+    position: absolute;
+    content: '';
+    height: .2rem;
+    width: 100%;
+    bottom: .1rem;
+    z-index: -1;
+    background: #CD48DC; 
+
+}
 
 audio {
     filter: sepia(50%) saturate(70%) grayscale(2) contrast(99%) invert(12%);
@@ -159,4 +179,5 @@ a img:hover {
 hr {
   display: none;
 }
+
 
